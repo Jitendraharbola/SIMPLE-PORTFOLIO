@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/svg+xml" href=" https://img.icons8.com/?size=100&id=jWPjQhx0oPhE&format=png&color=000000" id="favicon-svg">
+    <script src="test.js"></script>
+</head>
+<body>
+    <header>
+        My Website
+        <a href="https://gbpiet.ac.in/" target="_blank">
+            <img class = "logo" src="https://s.yimg.com/zb/imgv1/b0c64ecd-9b0f-36c5-92a8-5bc61cbef9fa/t_500x300" alt ="College logo" style="width: 130px; height: 120px"/>
+            </a>
+    </header>
+    <nav>
+        <ul class="main">
+           <li>
+            <a href="index.html">About</a>
+           </li>
+           <li>
+            <a href="Education.html">Education</a>
+           </li>
+           <li>
+            <a href="Gallery.html">Gallery</a>
+           </li>
+           <li style="float: right">
+            <a href="contact.html">Contact</a>
+           </li>
+
+        </ul>
+    </nav>
+    
+    <table class="Education">
+        <tr class="Education">
+            <th class="head">Degree</th>
+            <th class="head">College Name</th>
+            <th class="head">Percentage</th>        
+        </tr>
+        <tr>
+            <td class="head">10<sup>th</sup></td>
+            <td>Uttarakhand Board</td>
+            <td>79%</td>
+        </tr>
+        <tr>
+            <td class="head">12<sup>th</sup></td>
+            <td>Uttarakhand Board</td>
+            <td>66%</td>
+        </tr>
+        <tr>
+            <td class="head">B.S.C</td>
+            <td>KUMAUN UNIVERSITY NAINITAL</td>
+            <td> 53%</td>
+        </tr>
+        <tr>
+            <td class="head">M.C.A</td>
+            <td>GOVIND BALLABH PANT ENGINEERING COLLEGE<BR> (PAURI GARHWAL)</td>
+            <td> 66%</td>
+        </tr>
+    </table>
+    <footer>
+        <p id="demo"></p>
+        <script>
+          var date = new Date();
+          var day = date.getDate();
+          var month = date.getMonth() + 1;
+          var year = date.getFullYear();
+          var hour = date.getHours();
+          var min = date.getMinutes();
+          document.getElementById("demo").innerHTML =
+            day + "-" + month + "-" + year + " " + " " + hour + ":" + min + " ";
+        </script>
+  
+        <a href="https://github.com/Jitendraharbola?tab=repositories">
+          <img
+            class="Github-Icon"
+            src="images/github.png"
+            alt="Github-icon"  style="width: 100px; height: 100px;"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/jitendra-harbola-6a113a28a/">
+          <img
+            class="Link-Icon"
+            src="images/linkdinIcon.jpeg"
+            alt="Linkedin icon"
+          />
+        </a>
+        <p class="footer">Visit me at :</p>
+      </footer>
+    </body>
+  </html>

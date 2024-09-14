@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" type="image/svg+xml" href="https://img.icons8.com/?size=100&id=61977&format=png&color=000000" id="favicon-svg">
+   
+    <script src = "test.js"></script>
+</head>
+<body>
+    <header> My Website
+        <a href = "https://gbpiet.ac.in/" target = "_blank">
+            <img class = "Logo" src = "https://s.yimg.com/zb/imgv1/b0c64ecd-9b0f-36c5-92a8-5bc61cbef9fa/t_500x300"  alt = "College logo" style="width: 130px; height: 125px";
+        />
+        </a>
+    </header>
+    <nav>
+        <ul class = "main">
+           <li><a href="/index.html">About</a>
+            <li>
+                <a href="/Education.html">Education</a>
+            </li>
+            <li>
+                <a href="/Gallery.html">Gallery</a>
+            </li>
+            <li style="float: right">
+                <a href="./contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <table>
+        <td>
+          <img id = "myPic" src = "/mypic.jpg" alt = "Profile Pic"/>
+          </td>
+          <td class = "aboutme">
+            <p>
+                <strong>Name: </strong>JITENDRA HARBOLA <br />
+                <strong>College: </strong>GBPIET PAURI GARHWAL (Uttarakhand Technical University)<br />
+                <strong>Higher-Education: </strong>MCA <br />
+                <strong>Duration: </strong>2023-2025<br />
+                <strong>Download my cv : </strong> <a href= "https://docs.google.com/document/d/1XnqvcrTeH3mBcG7wFh008Q8F-Ht-Bq0k/edit?usp=sharing&ouid=108169973895121052666&rtpof=true&sd=true"> CLICK HERE</a><BR>
+                My name is Jitendra Harbola and I live in Ramnagar, Uttarakhand. I 
+                completed my Graduation from Kumaun University Nainital.  
+            </p>
+          </td>
+    </table>
+    <footer>
+        <p id ="demo"></p>
+        <script>
+            var date = new Date();
+            var day = date.getDate();
+            var month = date.getMonth();
+            var year = date.getFullYear();
+            var hour = date.getHours();
+            var min = date.getMinutes();
+            document.getElementById("demo").innerHTML =
+            day + "-" + month + "-" + year + " " + " " + hour + ":" + min + " ";
+        </script>
+
+        <a href = "https://github.com/Jitendraharbola?tab=repositories">
+            <img 
+            class="Github-Icon"
+    src="images/github.png"
+    alt="Github-icon" style="width: 100px; height: 100px"; 
+    />
+    </a>
+    <a href="https://www.linkedin.com/in/jitendra-harbola-6a113a28a/">
+        <img
+          class="Link-Icon"
+          src="images/linkdinIcon.jpeg"
+          alt="Linkedin icon"
+        />
+      </a>
+      <p class="footer">Visit me at :</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
